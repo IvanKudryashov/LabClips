@@ -3,7 +3,7 @@
 (deffacts Weatherfacts
    ( Weather(sky cloudy))
    (tucha yes)
-   (our side))
+   (no our side))
 (defrule No_rain
    (or
     ( Weather(sky clear))
